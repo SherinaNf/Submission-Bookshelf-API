@@ -85,8 +85,8 @@ Server harus merespons gagal bila:
 }
 ```
 * Client melampirkan nilai properti readPage yang lebih besar dari nilai properti pageCount. Bila hal ini terjadi, maka server akan merespons dengan: <br>
-&nbsp;&nbsp;&nbsp;&#x25CB; Status Code : 400
-&nbsp;&nbsp;&nbsp;&#x25CB; Response Body:
+&nbsp;&nbsp;&nbsp;&#x25CB; Status Code : 400 <br>
+&nbsp;&nbsp;&nbsp;&#x25CB; Response Body: <br>
 ```
 {
     "status": "fail",
